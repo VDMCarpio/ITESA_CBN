@@ -1,0 +1,10 @@
+*** 5 de agosto de 2023 ***
+Se genera un nuevo sitio para el CBN de ITESA
+El sitio se llama "CBN_ITESA"
+
+Notas de la programación
+-> config.md  se añade @def prepath = "CBN_ITESA"
+Se cambia el autor a "Profe Carpio"
+Se cambia le nombre del sito a "ITESA CBN"
+Se cambió la descripción del sitio
+Queda pendiente la actualización de la dirección web.
