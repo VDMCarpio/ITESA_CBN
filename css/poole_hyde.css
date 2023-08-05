@@ -58,10 +58,10 @@ html {
     font-size: 20px;
   }
 }
-
+/*515151*/
 body {
-  color: #515151;
-  background-color: #fff;
+  color: #241F2D;
+  background-color: #E9EAEB;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -92,9 +92,9 @@ h6 {
   margin-bottom: 0.5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #021D30;
   text-rendering: optimizeLegibility;
-}
+}/*7360ea*/
 
 h1 {
   font-size: 2rem;
@@ -257,8 +257,8 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255, 255, 255, 0.5);
-  background-color: #202020;
+  color: rgba(169, 171, 174, 0.9);
+  background-color: #021D30;
 }
 
 @media (min-width: 768px) {

@@ -8,3 +8,4 @@ Se cambia el autor a "Profe Carpio"
 Se cambia le nombre del sito a "ITESA CBN"
 Se cambió la descripción del sitio
 Queda pendiente la actualización de la dirección web.
+Se usa el comando optimize() para poder subir a Github.
