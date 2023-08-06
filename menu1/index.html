@@ -21,7 +21,7 @@
 </style>
 <link rel="icon" href="/ITESA_CBN/assets/favicon.png">
 
-   <title>Manuales</title>  
+   <title>ITESA CBN</title>  
 </head>
 <body>
 <div class="sidebar">
@@ -46,9 +46,9 @@
 <!-- Content appended here -->
 <div class="franklin-content">
 <h1 id="manuales_de_instalación_y_de_usuario"><a href="#manuales_de_instalación_y_de_usuario" class="header-anchor">Manuales de instalación y de usuario.</a></h1>
-<div class="franklin-toc"><ol><li><a href="#manual_de_instalación">Manual de instalación.</a></li><li><a href="#manual_de_ususario">Manual de ususario.</a></li></ol></div>
-<h2 id="manual_de_instalación"><a href="#manual_de_instalación" class="header-anchor">Manual de instalación.</a></h2>
 <p>Si sólo vas a usar la aplicación en los centros de cómputo del ITESA, no es necesario que realices la instalación en tu equipo personal, por lo que puedes ir directamente al manual de usario.</p>
+<div class="franklin-toc"><ol><li><a href="#manual_de_instalación">Manual de instalación.</a></li><li><a href="#manual_de_usuario">Manual de usuario.</a></li></ol></div>
+<h2 id="manual_de_instalación"><a href="#manual_de_instalación" class="header-anchor">Manual de instalación.</a></h2>
 <p>Para hacer uso de las notas interactivas en tu equipo personal deberá usarse una computadora &#40;lamentablemente aún no hay aplicación para celular&#41;, e ingresar a la página de <em><a href="https://julialang.org/">Julia language</a></em>.</p>
 <p>Dentro de la página, identifica el botón verde con el nombre &quot;Dowload&quot; y da clic sobre él.</p>
 
@@ -59,9 +59,124 @@
   </div>
 </div>
 
-<h2 id="manual_de_ususario"><a href="#manual_de_ususario" class="header-anchor">Manual de ususario.</a></h2>
+<p>Esto de redirigirá a otra página de las versiones de descarga de <em>Julia</em>, se recomienda usar la versión estable más reciente &#40;para la fecha de la elaboración de este manual se muestra la versión v1.9.2&#41;.</p>
+<p>Elige la opción de descarga de acuerdo al sistema operativo del equipo donde lo instalarás y elige entre el descargable para instalar o el portable. Te recomentados usar el descargable para instalar.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia02.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
+<p>Al terminar la descarga, abre el archivo para que éste se ejecute y empiece con la instalación de Julia. </p>
+<p>Es <strong>IMPORTANTE</strong> que copies la dirección de instalación y la mantengas en algún software de texto &#40;por ejemplo el bloc de notas de Windows&#41; ya que se usará más adelante en una configuración de Windows.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia03.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
+<p><strong>¿Ya tienes la direeción de instalación guardada?</strong> En caso afirmativo puedes dar clic sobre el botón de <em>Next</em>, aparecerá una ventana con tres opciones, de las cuales dos ya están preseleccionadas por <em>default</em>, puedes dejar la selección como está &#40;recomendado&#41; o puedes seleccionar &#40;o deseleccionar&#41; las opciones deseadas.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia04.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
+<p>Da clic nuevamente en <em>Next</em>, con esto iniciará el proceso de instalación.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia05.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
+<p>Al terminar el proceso de instalación de <em>Julia</em> aparecerá la ventana final de instalación. En esta ventana te mostrará tres opciones &#40;que por <em>default</em>&#41; están sin seleccionar.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia06.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
+<p>Si por algún motivo no lograste guardar la dirección de instalación o se te borró, selecciona la opción &quot;<em>Open Julia directory</em>&quot;, esto hará que se abra la carpeta donde fue instalado Julia al momento que le des clic en <em>Finish</em>, aquí podrás copiar nuevamente la dirección de instalación desde la barra de navegación del explorador de archivos.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia07.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
+<p>Ya tienes instalado Julia, ahora instalaremos <em>Pluto</em>, para eso deberás tener a la mano la dirección de instalación de <em>Julia</em> y el archivo &quot;Paqueterias.jl&quot;, el cual será proporcionado por tu profesora o profesor de la asignatura, o también podrás descargarlo desde este <a href="https://tecabasolo-my.sharepoint.com/:f:/g/personal/vicente_mc_abasolo_tecnm_mx/Es6FPXvfw_dPsD9eSv9YY2kB8LLmRo8SMalphS9ma_sCCg?e&#61;fu1kTs">enlace</a> &#40;deberás acceder con tu cuenta institucional del ITESA para poder descargarlos&#41;.</p>
+<p>Da clic derecho sobre el archivo &quot;Paqueterías.jl&quot; y busca la opción <strong>abrir con</strong>, en caso que estés usando Windows 11 primero da clic en la opción <strong>Mostrar Más opciones</strong>.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia08.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
+<p>Se abrirá una ventana de diálogo donde te preguntará con que programa quieres abrir el archivo, para lo cual te mostrará un listado de los que el sistema operativo te recomienda, por lo general <em>Julia</em> no aparece en ese listado, por lo que hay que buscar el ejecutable en la dirección de instalación &#40;la cual copiaste y almacenaste con antelación&#41; dando clic en la opción &quot;Elegir una aplicación del PC&quot;.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia09.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
+<p>Se abrirá una ventana de exploración de archivos, recupera la dirección de instalación que guardast en el bloc de notas &#40;o similar&#41; copiala y pégala en la barra de dirección y apreta la tecla &quot;Enter&quot;, se abrirá la dirección de instalación. Ahora abre la carpeta con el nombre &quot;bin&quot;.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia10.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
+<p>Dentro de la carpeta &quot;bin&quot; busca el ejecutable &quot;julia.exe&quot; &#40;si no tienes la opción de visualización de extensiones activa, probablemente no se vea el .exe&#41;, el cual tendrá el ícono de tres círculos de <em>Julia</em>; da doble clic sobre ese archivo, ahora da clic in &quot;Siempre&quot;. Con esto tu Windows queda configurado a que puedas abrir los archivos <em>.jl</em> sólo al dar doble clic sobre ellos, además, el archivo &quot;Paqueterias.jl&quot; se empezará a ejecutar.</p>
+<p>El archivo de &quot;Paqueterias.jl&quot; instalará las paqueterías necesarias para ejecutar los anotaciones interactivas del curso, este proceso requiere acceso a internet, ya que accede a los repositorios donde se encuentran almacenadas estas paqueterías. Al terminar la instalación, te mostrará un reporte de las paqueterías instaladas y te dará un aviso de haber terminado, da &quot;Enter&quot; con el teclado y la ventana se cerrará.</p>
+<p>En caso que la ventana se cierre inesperadamente, lo más probable es que no se haya tenido una buena comunicación con los repositorios debido a algún tipo de falla en el internet &#40;ya sea tuya o del repositorio&#41;, intenta nuevamente ejecutar el archivo &quot;Paqueterías.jl&quot; &#40;la ventaja es que ya sólo tienes que dar doble clic sobre él&#41;.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia12.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
+<p>Ya tienes instalado <em>Julia</em> con <em>Pluto</em>.</p>
+<h2 id="manual_de_usuario"><a href="#manual_de_usuario" class="header-anchor">Manual de usuario.</a></h2>
+<p>En esta sección te explicaremos como abrir un archivos de las notas interactivas.</p>
+<p>Para esto, abre la dirección con los archivos proporcionados o que desargaste de <a href="https://tecabasolo-my.sharepoint.com/:f:/g/personal/vicente_mc_abasolo_tecnm_mx/Es6FPXvfw_dPsD9eSv9YY2kB8LLmRo8SMalphS9ma_sCCg?e&#61;fu1kTs">aquí</a> &#40;si tienes todos los archivos en una sola carpeta se simplificará acceder a las anotaciones interactivas&#41; y da clic en el archivo &quot;IniciarPluto.jl&quot;.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia13.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
+<p>Con esto, inicialmente se abrirá una ventana del tipo &quot;PowerShell&quot; de Windows donde se activará un servidor local que ayuda a ejecutar <em>Pluto</em> puesto que se usa en un explorador de internet &#40;se recomienda que esté actualizado tu explorador de internet&#41;, <strong>por lo que es muy importante no cerrar la ventana</strong>, ya que si se cierra yo no será usable <em>Pluto</em> y deberá volver a abrir el archivo &quot;IniciarPluto.jl&quot;.</p>
+
+<div class="row">
+  <div class="container">
+    <img class="center" src="/ITESA_CBN/assets/Julia14.png">
+       <div style="clear: both"></div>      
+  </div>
+</div>
+
 <div class="page-foot">
-    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Profe Carpio. Last modified: August 05, 2023.
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Profe Carpio. Last modified: August 06, 2023.
     Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
 </div>
 </div><!-- CONTENT ENDS HERE -->
